@@ -1,9 +1,51 @@
+/* 全体のスタイル */
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;  /* Google Fontsを使用 */
+    text-align: center;  /* 中央寄せ */
+    background-color: #f4f4f4;  /* 背景色 */
+    color: #333;  /* 文字色 */
+    margin: 0;
+    padding: 0;
 }
 
-button {
-    font-size: 20px;
+/* コンテンツを中央に配置 */
+.container {
+    width: 80%;
+    max-width: 600px; /* 最大幅 */
+    margin: 50px auto; /* 上下50pxの余白、左右中央 */
+    background: white; /* 白背景 */
+    padding: 20px;
+    border-radius: 10px; /* 角を丸く */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ふんわり影 */
+}
+
+/* 見出し */
+h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* 説明テキスト */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* リンクボタンのスタイル */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3498db; /* ブルー */
+    color: white;
     padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+/* ホバー時の動き */
+a:hover {
+    background-color: #2980b9;
 }
