@@ -22,6 +22,10 @@ h1 {
     background-color: rgb(234, 245, 255);
 }
 
+h1:not(.h1_what_is_program){
+    margin-top: 100px;
+}
+
 h2 {
     color: rgb(38, 175, 255);
     font-size: 20px;
@@ -33,3 +37,6 @@ p {
     font-size: 17px;
 }
 
+.what_is_program {
+    margin-bottom: 40px;
+}
