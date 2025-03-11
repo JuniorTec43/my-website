@@ -20,10 +20,12 @@ h1 {
     font-size: 30px;
     text-align: left;
     background-color: rgb(234, 245, 255);
+    margin-top: 100px;
+    padding: 6px 20px;
 }
 
-h1:not(.h1_what_is_program){
-    margin-top: 100px;
+h1:first-child{
+    margin-top: 0px;
 }
 
 h2 {
