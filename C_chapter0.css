@@ -7,3 +7,24 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.C_and_python_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.C_and_python_table th .C_and_python_table td {
+    border: 1px solid #dddddd;
+    padding: 12px 15px;
+}
+
+.C_and_python_table tr {
+    background-color: #f2f2f2;
+}
+
+.C_and_python_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
