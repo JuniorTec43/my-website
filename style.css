@@ -15,7 +15,7 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 軽い影をつける */
 }
 
-h1 {
+h2 {
     color: rgb(62, 134, 230);
     font-size: 30px;
     text-align: left;
@@ -24,11 +24,11 @@ h1 {
     padding: 6px 20px;
 }
 
-h1:first-child{
+h2:first-child{
     margin-top: 0px;
 }
 
-h2 {
+h3 {
     color: rgb(38, 175, 255);
     font-size: 20px;
     text-align: left;
@@ -37,8 +37,4 @@ h2 {
 p {
     color: black;
     font-size: 17px;
-}
-
-.what_is_program {
-    margin-bottom: 40px;
 }
