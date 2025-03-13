@@ -13,18 +13,34 @@
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
+    border: 1px solid #000;
+    table-layout: fixed;
 }
 
-.C_and_python_table th .C_and_python_table td {
-    border: 1px solid #dddddd;
-    padding: 12px 15px;
+.C_and_python_table caption {
+    color: rgb(41, 130, 255);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.C_and_python_table th, .C_and_python_table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 5px 10px;
+}
+
+.C_and_python_table th {
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: bold;
 }
 
 .C_and_python_table tr {
     background-color: #f2f2f2;
 }
 
-.C_and_python_table tr:nth-child(even) {
+.C_and_python_table tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
