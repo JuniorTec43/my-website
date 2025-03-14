@@ -44,3 +44,15 @@
 .C_and_python_table tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
+
+ul {
+    color: #0a2a6e;
+    border: dotted #0a2a6e 1px;
+    padding: 0.5em 0.5em 0.5em 2em;
+    list-style-type: circle;
+}
+
+ul li {
+    line-height: 1.5;
+    padding: 5px 0;
+}
