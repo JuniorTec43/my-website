@@ -1,7 +1,20 @@
 .chapter0_index {
-    color: #0a2a6e;
+    color: #3c71e4;
     border: dotted #0a2a6e 1px;
     padding: 0.5em 0.5em 0.5em 2em;
+}
+
+a {
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0a2a6e;
+}
+
+a:hover {
+    color: #83a3e8;
 }
 
 .chapter0_index li {
