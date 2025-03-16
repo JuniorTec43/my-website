@@ -9,12 +9,6 @@ body {
     padding: 0;
 }
 
-.table_of_contensts {
-    color: #3c71e4;
-    border: dotted #0a2a6e 1px;
-    padding: 0.5em 0.5em 0.5em 2em;
-}
-
 .container {
     width: 80%;
     max-width: 800px;
@@ -23,6 +17,18 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table_of_contensts {
+    color: #3c71e4;
+    border: dotted #0a2a6e 1px;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.table_of_contensts li {
+    line-height: 1.5;
+    padding: 5px 0;
+    font-weight: bold;
 }
 
 h1 {
@@ -56,6 +62,19 @@ p {
     color: black;
     font-size: 17px;
     line-height: 1.8em;
+}
+
+a {
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0a2a6e;
+}
+
+a:hover {
+    color: #83a3e8;
 }
 
 .neon_yellow {
