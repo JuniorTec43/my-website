@@ -9,6 +9,12 @@ body {
     padding: 0;
 }
 
+.table_of_contensts {
+    color: #3c71e4;
+    border: dotted #0a2a6e 1px;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
 .container {
     width: 80%;
     max-width: 800px;
