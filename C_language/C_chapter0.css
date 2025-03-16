@@ -76,3 +76,13 @@
     line-height: 1.5;
     padding: 5px 0;
 }
+
+.c_extensions_images {
+    display: flex;
+    justify-content: center;
+}
+
+.c_extensions_images li img {
+    width: 200px;
+    height: auto;
+}
