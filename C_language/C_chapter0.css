@@ -1,3 +1,15 @@
+.chapter0_index {
+    color: #0a2a6e;
+    border: dotted #0a2a6e 1px;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.chapter0_index li {
+    line-height: 1.5;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
 .c_language_image {
     width: 30%;
     height: auto;
